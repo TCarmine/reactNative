@@ -2,12 +2,11 @@
  * @format
  */
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/header';
 
-
-const App = () => (  
-        <Text> Some Text example </Text>
+const App = () => (
+      <Header />
 );
 
 AppRegistry.registerComponent('basic_app', () => App);
-
