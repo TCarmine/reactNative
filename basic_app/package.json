@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
+    "avvia": "react-native run-android",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.0"
+    "react-native": "0.60.0",
+    "react-native-shadow": "^1.2.2",
+    "react-native-svg": "^9.5.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.0",
