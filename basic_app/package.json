@@ -6,7 +6,9 @@
     "start": "react-native start",
     "avvia": "react-native run-android",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "main": "./index.js",
+    "android-shake": "adb shell input keyevent 82"
   },
   "dependencies": {
     "react": "16.8.6",
@@ -27,4 +29,6 @@
   "jest": {
     "preset": "react-native"
   }
+  
+  
 }

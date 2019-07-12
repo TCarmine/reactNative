@@ -1,3 +1,6 @@
+
+require('react-devtools-core').connectToDevTools({host: '192.168.43.151'})
+
 /**
  * @format
  */

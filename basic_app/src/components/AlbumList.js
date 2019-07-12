@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 
 class AlbumList extends Component  {
-    componentWillMount(){
+    componentDidMount(){
     console.log('componentWillMount in AlbumList');
     debugger;
     } 
