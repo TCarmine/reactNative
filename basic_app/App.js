@@ -5,7 +5,7 @@
  * @format
  * @flow
  */
-require('react-devtools-core').connectToDevTools({host: '192.168.43.151'})
+
 import React, {Fragment} from 'react';
 import {
   SafeAreaView,
