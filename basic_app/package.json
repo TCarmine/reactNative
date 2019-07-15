@@ -11,11 +11,13 @@
     "android-shake": "adb shell input keyevent 82"
   },
   "dependencies": {
+    "autosave": "^1.0.3",
     "axios": "^0.19.0",
     "react": "16.8.6",
     "react-native": "0.60.0",
     "react-native-shadow": "^1.2.2",
-    "react-native-svg": "^9.5.1"
+    "react-native-svg": "^9.5.1",
+    "watchman": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.5.0",
