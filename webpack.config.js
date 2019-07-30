@@ -1,7 +1,9 @@
+
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
-module.exports = {
+config = {
   module: {
+    // it was loaders in webpack 1
     rules: [
       {
           test: /\.(js|jsx)$/,
@@ -29,3 +31,5 @@ module.exports = {
   ]
 
 };
+
+module.exports.config;
