@@ -5,7 +5,7 @@ const AlbumDetail = (props) => {
     return (
         <View>
             <Text>
-              {props.albumrecord.title}
+              {props.albumrecord.}
             </Text>
         </View>
     )
