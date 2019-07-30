@@ -1,10 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const Card = () =>{
+const Card = (props) =>{
     return (
         <View style={styles.containerStyle}>
-             
+          {props.children}              
         </View>
     );
 };
@@ -12,6 +12,8 @@ const Card = () =>{
 
 const styles ={
     containerStyle: {
+        // fontsize is necessay otherwise nothing will appear
+        fontSize: 12,
         borderWidth:1,
         borderRadius:2,
         borderColor:'#ddd',
