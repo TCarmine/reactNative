@@ -5,7 +5,7 @@ const CardSection = (props) =>{
     return (
         
         <View style={styles.containerStyle}>
-            {props.children}
+             {props.children}
         </View>
     );
 };

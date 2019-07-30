@@ -13,6 +13,7 @@ const Card = (props) =>{
 const styles ={
     containerStyle: {
         // fontsize is necessay otherwise nothing will appear
+        fontSize: 50,
         height:50,
         fontSize: 20,
         borderWidth:1,
