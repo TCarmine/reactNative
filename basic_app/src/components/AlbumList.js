@@ -1,9 +1,9 @@
-import React  from 'react';
+import React, { Component }  from 'react';
 import { View } from 'react-native';
 import axios from 'axios';
 import AlbumDetail from './AlbumDetail';
 
-class AlbumList extends React.Component  {
+class AlbumList extends Component  {
     // Component State
     // class level proprety
     state = { albums: [] }  //1. default this.hasstate()
