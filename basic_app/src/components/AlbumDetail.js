@@ -61,7 +61,7 @@ const styles = {
         marginRight:10
     },
     imageStyle:{
-        height:300,
+        height:400,
         flex:1,
         width: null
     }
