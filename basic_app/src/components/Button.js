@@ -6,7 +6,7 @@ const Button = () => {
     
     const { buttonStyle,textStyle } = styles;
     return (
-        <TouchableOpacity style={buttonStyle}>
+        <TouchableOpacity onPress={ () => console.log('I been pressed')} style={buttonStyle}>
             <Text style = { textStyle }>
                 Buy this Album
             </Text>
