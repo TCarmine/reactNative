@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import {  Text, View, Image } from 'react-native';
+import {  Text, View, Image, Linking } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
 import Button from './Button';
 
+
 const AlbumDetail = ({ albumrecord }) => {
-    const{ title, artist, thumbnail_image, image } = albumrecord;
+    const{ title, artist, thumbnail_image, image, url } = albumrecord;
     const { 
         thumbnailStyle, 
         headerContentStyle,
@@ -35,8 +36,9 @@ const AlbumDetail = ({ albumrecord }) => {
               style={ imageStyle}
               source={{ uri:image }}/>    
             </CardSection> 
+            
             <CardSection>
-                <Button />
+                <Button btnPress={() => console.log(title)} />
             </CardSection>
         </Card>
 
@@ -51,7 +53,7 @@ const styles = {
         justifyContent:'space-around'
     },
     headerTextStyle:{
-        fondSize:18
+        fontSize:18
     },
     thumbnailStyle:{
         height:50,
