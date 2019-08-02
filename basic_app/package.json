@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "avvia": "react-native run-android",
+    "build": "react-native run-android",
     "test": "jest",
     "lint": "eslint .",
     "main": "./index.js",
