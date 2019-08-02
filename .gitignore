@@ -1,6 +1,9 @@
 node_modules/*
 issues
-
-
-
-
+ProjectB/authApp/android/*
+ProjectB/authApp/ios/*
+ProjectB/authApp/.gitignore
+ProjectB/authApp/.gitattributes
+ProjectB/authApp/yarn.lock
+ProjectB/authApp/.flowconfig
+ProjectB/authApp/.buckconfig
