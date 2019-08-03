@@ -1,4 +1,4 @@
-//This should enable to debug CSS from Chrome react dev tool 
+// This should enable to debug CSS from Chrome react dev tool 
 // It happens that app.json created by default react-native is not been 
 // read by Adroid studio, so it never recognize the mapping of the app name,
 // so better use app's string name:'authApp'.
