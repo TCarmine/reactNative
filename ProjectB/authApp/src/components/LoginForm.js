@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import { TextInput } from 'react-native';
-import { Button, Card, CardSection} from './common';
+import { Button, Card, CardSection, Input} from './common';
 
 class LoginForm extends Component{
 
@@ -14,10 +13,10 @@ class LoginForm extends Component{
                  {/* 
                  By default TextInput does not have width and heigth(0), like image
                 */}
-                <TextInput 
+                <Input 
                     value={this.state.text}
                     onChangeText = { text => this.setState({ text })}
-                    style={{ height:50, width:150}}/>   
+                />   
                 </CardSection>
 
                 <CardSection />
