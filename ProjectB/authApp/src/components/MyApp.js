@@ -1,6 +1,6 @@
-//This is an overrride of the default "App"
+// This is an overrride of the default "App"
 // created by react-native, even those was changed name and Component changed name,
-//it cause error in runtime. Neet  futher check
+// it cause error in runtime. Neet  futher check
 import firebase from 'firebase';
 import React, {Component } from 'react';
 import { View, Text } from 'react-native';
