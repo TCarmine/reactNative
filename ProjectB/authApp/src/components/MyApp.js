@@ -1,9 +1,9 @@
 import React, {Component } from 'react';
 import { View, Text } from 'react-native';
-import { Header } from './components/common';
+import { Header } from './common';
 
 
-class App extends Component {
+class MyApp extends Component {
     render(){
         return (
             <View>
@@ -16,4 +16,4 @@ class App extends Component {
     }
 }
 
-export { App };
+export default MyApp;

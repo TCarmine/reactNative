@@ -6,7 +6,7 @@ require('react-devtools-core').connectToDevTools({host: '192.168.43.151'})
  */
 
 import {AppRegistry} from 'react-native';
-import App from './src/components/App';
+import MyApp from './src/components/MyApp.js';
 // import {authApp as appName} from './app.json';
 
-AppRegistry.registerComponent(authApp, () => App);
+AppRegistry.registerComponent('authApp', () => MyApp);
