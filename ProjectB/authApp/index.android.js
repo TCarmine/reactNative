@@ -3,7 +3,8 @@
 // read by Adroid studio, so it never recognize the mapping of the app name,
 // so better use app's string name:'authApp'.
 // on top of that this file is not read once the build is done, so metro does not
-// read and update version, so better check manually into Android Studio
+// read and update version, so better check manually into Android Studio.
+
 require('react-devtools-core').connectToDevTo ols({host: '192.168.43.151'})
 
 /**
