@@ -7,7 +7,7 @@ class MyApp extends Component {
     render(){
         return (
             <View>
-                <Header headertext="Authentication" />
+                <Header headerText="Authentication" />
                 <Text>
                     Another app authentication
                 </Text>
