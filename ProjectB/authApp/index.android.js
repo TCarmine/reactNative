@@ -5,7 +5,7 @@
 // on top of that this file is not read once the build is done, so metro does not
 // read and update version, so better check manually into Android Studio.
 
-require('react-devtools-core').connectToDevTo({host: '192.168.43.151'})
+require('react-devtools-core').connectToDevTools({host: '192.168.43.151'})
 
 /**
  * @format
