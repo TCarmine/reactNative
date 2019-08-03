@@ -7,15 +7,17 @@ class LoginForm extends Component{
             <Card>
                 <CardSection />
                 <CardSection />
+                
                 <CardSection>
-                <Button>
-                  Log in    
-                </Button>    
+                    <Button>
+                    Log in    
+                    </Button>    
                 </CardSection> 
             </Card>
 
         );
     }
 }
+
 
 export default LoginForm;
