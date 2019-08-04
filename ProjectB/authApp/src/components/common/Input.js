@@ -12,9 +12,14 @@ const Input = ( {  label, value, onChangeText, placeholder } ) =>{
                style = {inputStyle}        
                value ={value}
                onChangeText={onChangeText}
-               
-               
-            ></TextInput>
+           />
+           <TextInput 
+               placeholder={placeholder}
+               autoCorrect={false}
+               style = {inputStyle}        
+               value ={value}
+               onChangeText={onChangeText}
+           />
        </View>
    )
 
