@@ -3,7 +3,7 @@ import { Button, Card, CardSection, Input} from './common';
 
 class LoginForm extends Component{
 
-    state = { text: ''};
+    state = { email: ''};
 
 
     render(){
@@ -14,9 +14,11 @@ class LoginForm extends Component{
                  By default TextInput does not have width and heigth(0), like image
                 */}
                 <Input 
+                    placeholder="here your email"
                     label="Email :"
-                    value={this.state.text}
-                    onChangeText = { text => this.setState({ text })}
+                    value={this.state.email}
+                    onChangeText = { email => this.setState({ email })}
+                   
                 />   
                 </CardSection>
 
