@@ -14,6 +14,7 @@ class LoginForm extends Component{
                  By default TextInput does not have width and heigth(0), like image
                 */}
                 <Input 
+                    label="Email :"
                     value={this.state.text}
                     onChangeText = { text => this.setState({ text })}
                 />   
